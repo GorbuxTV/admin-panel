@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 14px;
+	font-weight: normal;
+	position: relative;
+	box-sizing: border-box;
+}
+
+input:focus, textarea:focus, button:focus{
+	outline: none;
+}
+
+input[type="text"], input[type="search"], input[type="email"], input[type="password"]{
+    width: 25%;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #333333;
+	background-color: #FCFCFC;
+	border: 1px solid #333333;
+	border-radius: 4px;
+	padding: 0 5px;
+	height: 25px;
+	display: block;
+}
+
+input[name="submit-register"], input[name="submit-edit"], input[name="submit-remove"]{
+    font-size: 14px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    color: #F4EEEE;
+    background-color: #097BCA;
+    padding: 5px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.3s background-color;
+    display: block;
+}
+
+input[name="submit-register"]:hover, input[name="submit-edit"]:hover, input[name="submit-remove"]:hover{
+    background-color: #3E9FE1;
+}
+
+.form-register, .form-search, .form-edit{
+	margin: 20px 0;
+}
+
+.section{
+    padding: 40px 0;
+    background-color: #F4EEEE;
+    min-height: calc(100vh - 80px);
+}
+
+.section h2{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.form-errors ul{
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.form-errors ul li{
+    color: #e13e36;
+}
+
+
+/* --  header -- */
+
+.header{
+	background-color: #097BCA;
+	height: 45px;
+	line-height: 45px;
+}
+
+.logo{
+	text-align: center;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #F4EEEE;
+	font-size: 16px;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	list-style-type: none;
+}
+
+.menu ul li{
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.menu ul li a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #F4EEEE;
+	transition: 0.4s color;
+}
+
+.menu ul li a:hover{
+	color: #e13e36;
+}
+
+
+/* -- section register-- */
+
+.form-group{
+	margin: 10px 0;
+}
+
+
+/* -- section catalog -- */
+
+.form-search{
+	position: relative;
+	display: inline-block;
+}
+
+input[type="search"]{
+	width: 100%;
+}
+
+input[name="submit-search"]{
+	top: 0;
+	right: 0;
+	height: 25px;
+	border: 1px solid #333333;
+	border-radius: 4px;
+	color: #F4EEEE;
+	background-color: #097BCA;
+	padding: 0 5px;
+	display: inline-block;
+	position: absolute;
+	cursor: pointer;
+	transition: 0.3s background-color;
+}
+
+.listUser{
+	width: 100%;
+	margin: 20px 0;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.listUser th, .listUser td{
+	border: 1px solid #333333;
+	background-color: #FCFCFC;
+	padding: 5px 10px;
+}
+
+.listUser th{
+	background-color: #cecece;
+}
+
+.listUser img{
+	max-width: 100px;
+	max-height: 80px;
+}
+
+.listUser a{
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    color: #F4EEEE;
+    background-color: #097BCA;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s background-color;
+    display: block;
+}
+
+.listUser a:hover{
+    background-color: #3E9FE1;
+}
+
+
+/* -- section edit -- */
+
+
+
+/* --  footer -- */
+
+.footer{
+	background-color: #097BCA;
+	height: 35px;
+	line-height: 35px;
+}
+
+.copyright{
+	color: #F4EEEE;
+	font-size: 16px;
+}
+
+.copyright span{
+	font-size: 12px;
+	font-weight: 700;
+}
